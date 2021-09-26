@@ -1,10 +1,11 @@
 .cart-part-align {
-  height: 40rem;
+  min-height: 24rem;
   background-image: linear-gradient(to right, #2e495c 0%, #5d7e99 100%);
   width: 27%;
   margin-top: 1rem;
   margin-left: 1.8rem;
   border-radius: 2rem;
+  padding-bottom: 1rem;
 }
 .summery-underline {
   width: 10rem;

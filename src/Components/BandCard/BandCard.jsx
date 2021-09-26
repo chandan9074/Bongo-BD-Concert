@@ -41,7 +41,7 @@ const BandCard = (props) => {
                     <h3 className=" font-semibold">Genra: {genra}</h3>
                     <div className="flex ">
                         <h3 className="shadow-xl rounded-lg py-1 px-2 w-3/6 mr-0.5 font-semibold">Origin: <div className="details-underline"></div> {city}</h3>
-                        <h3 className="shadow-xl rounded-lg py-1 px-2 w-3/6 font-semibold">Amount: <div className="details-underline"></div>$ {budget}</h3>
+                        <h3 className="shadow-xl rounded-lg py-1 px-2 w-3/6 font-semibold">Remunation: <div className="details-underline"></div>$ {budget}</h3>
                     </div>
                 </div>
             </section>
