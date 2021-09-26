@@ -15,6 +15,8 @@ const Cart = (props) => {
             <div className="p-7 mt-10 band-list-cart">
                 <h1 className="text-2xl font-semibold text-gray-200">List of the selected Bands</h1>
                 <div className="list-underline"></div>
+                
+                {/* pass list data into bandlist component  */}
                 <div className="band-list-items">
                     {
                         props.selectedBand.map((bandlist, index) => <Bandlist key={index} bandname={bandlist.name} bandimg= {bandlist.img}/>)
