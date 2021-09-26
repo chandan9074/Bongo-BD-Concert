@@ -1,0 +1,19 @@
+.page-align {
+  display: flex;
+  /* padding-right: 3rem; */
+}
+.items-part {
+  padding: 1rem;
+  width: 70%;
+  /* background-color: aquamarine; */
+  /* background-image: linear-gradient(-225deg, #dcf7eb 0%, #8db3c0 100%); */
+}
+.cart-part {
+  width: 30%;
+  /* background-color: blueviolet; */
+}
+.cart-align {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+}

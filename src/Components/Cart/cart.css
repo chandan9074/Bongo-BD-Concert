@@ -1,0 +1,27 @@
+.cart-part-align {
+  height: 40rem;
+  background-image: linear-gradient(to right, #2e495c 0%, #5d7e99 100%);
+  width: 27%;
+  margin-top: 2.5rem;
+  margin-left: 1.8rem;
+  border-radius: 2rem;
+}
+.summery-underline {
+  width: 10rem;
+  margin: 0.5rem auto;
+  border-bottom: 2px solid salmon;
+}
+.list-underline {
+  width: 6rem;
+  margin: 0.5rem auto 1rem auto;
+  border-bottom: 2px solid salmon;
+}
+.band-list-cart {
+  border-radius: 1rem 0 1rem 0;
+  box-shadow: 0 0 0.5rem rgb(0, 2, 5);
+}
+.band-list-items {
+  max-height: 10rem;
+  /* background-color: blueviolet; */
+  overflow: auto;
+}
