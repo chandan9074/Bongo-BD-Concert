@@ -14,7 +14,7 @@ const Navbar = () => {
             </section>
             <section>
                 <div>
-                    <h3 className="bg-gray-200 text-xl py-2 pl-4 rounded-full font-semibold">Total Budgets <span className="nav-budget-amount  px-4 rounded-full text-gray-100 font-semibold text-xl">1500000</span></h3>
+                    <h3 className="bg-gray-200 text-xl py-2 pl-4 rounded-full font-semibold">Total Budget <span className="nav-budget-amount  px-4 rounded-full text-gray-100 font-semibold text-xl">$ 1500000</span></h3>
                 </div>
             </section>
         </div>

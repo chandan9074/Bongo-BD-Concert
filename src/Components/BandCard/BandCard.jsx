@@ -31,14 +31,14 @@ const BandCard = (props) => {
                     {/* <hr className="bg-rad-100" /> */}
                     <div className="flex ">
                         <h3 className="shadow-xl rounded-lg py-1 px-2 w-3/6 mr-0.5 font-semibold">Origin: <div className="details-underline"></div> {city}</h3>
-                        <h3 className="shadow-xl rounded-lg py-1 px-2 w-3/6 font-semibold">Amount: <div className="details-underline"></div> {budget}</h3>
+                        <h3 className="shadow-xl rounded-lg py-1 px-2 w-3/6 font-semibold">Amount: <div className="details-underline"></div>$ {budget}</h3>
                     </div>
                 </div>
             </section>
             {selected?
-            <button className="invite-btn font-semibold"><i class="fas fa-check-circle"></i> Invite</button>
+            <button className="invite-btn font-semibold"><i className="fas fa-check-circle"></i> Invite</button>
             : 
-            <button className="invite-btn font-semibold" onClick={handleCard}><i class="fas fa-check-circle"></i> Invite</button>
+            <button className="invite-btn font-semibold" onClick={handleCard}><i className="fas fa-check-circle"></i> Invite</button>
             }
         </div>
      );

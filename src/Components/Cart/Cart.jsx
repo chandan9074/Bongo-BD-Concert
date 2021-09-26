@@ -17,7 +17,7 @@ const Cart = (props) => {
                 <div className="list-underline"></div>
                 <div className="band-list-items">
                     {
-                        props.selectedBand.map(bandlist => <Bandlist bandname={bandlist.name} bandimg= {bandlist.img}/>)
+                        props.selectedBand.map((bandlist, index) => <Bandlist key={index} bandname={bandlist.name} bandimg= {bandlist.img}/>)
                     }
                 </div>
             </div>
