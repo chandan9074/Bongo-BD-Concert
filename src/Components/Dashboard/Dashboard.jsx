@@ -29,7 +29,7 @@ const Dashboard = () => {
     return ( 
         <div className="page-align">
             <section className="items-part">    
-                <header>Hello chandan</header>
+                {/* <header>Hello chandan</header> */}
                 <section className="cart-align">
                     {
                         bands.map((band, index) => <BandCard key={index} handleCardCalculation={(bNo, amount, bList)=>handleCardCalculation(bNo, amount, bList)} bandNo = {bandNo} band={band} />)

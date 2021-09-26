@@ -30,7 +30,9 @@
   font-size: 1.2rem;
   border-radius: 0.5rem;
   color: #0d2335;
-  background-color: salmon;
+  background-color: rgb(252, 160, 150);
+  border: 1.5px solid tomato;
+  outline: none;
 }
 .details-underline {
   width: 5remf;

@@ -1,0 +1,18 @@
+.navbar {
+  width: 98%;
+  margin: 0 auto;
+  /* position: fixed; */
+  border-radius: 1rem;
+  background-image: linear-gradient(to right, #2e495c 0%, #5d7e99 100%);
+  padding: 1rem 2rem;
+}
+.nav-title-underline {
+  width: 30rem;
+  border-bottom: 2px solid gray;
+  margin-top: 0.5rem;
+}
+.nav-budget-amount {
+  background-image: linear-gradient(to right, #2e495c 0%, #5d7e99 100%);
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+}

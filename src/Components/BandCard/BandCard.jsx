@@ -1,12 +1,15 @@
 // import pakages
 import React from 'react';
+import { useState } from 'react/cjs/react.development';
 
 // import custom files
 import './bandCard.css';
 
 const BandCard = (props) => {
     const {img, name, formed, genra, city, budget} = props.band;
+    const [selected, setSelected] = useState(false)
     const handleCard = () =>{
+        setSelected(true)
         const newBandNo = props.bandNo + 1;
         const bandlist = {
             name: name,
@@ -32,7 +35,11 @@ const BandCard = (props) => {
                     </div>
                 </div>
             </section>
-            <button className="invite-btn font-semibold" onClick={handleCard}>Invite</button>
+            {selected?
+            <button className="invite-btn font-semibold"><i class="fas fa-check-circle"></i> Invite</button>
+            : 
+            <button className="invite-btn font-semibold" onClick={handleCard}><i class="fas fa-check-circle"></i> Invite</button>
+            }
         </div>
      );
 }
